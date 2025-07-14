@@ -1,0 +1,529 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    overflow: hidden;
+}
+
+/* Spotify Clone Start */
+
+body {
+    display: flex;
+    height: 100vh;
+    background-color: black;
+}
+
+/* Navbar Start */
+
+#navbar {
+    height: 45rem;
+    width: 25rem;
+    margin-right: 0.5rem;
+}
+
+/* Navigation Start  */
+
+#navigation {
+    height: 6.25rem;
+    padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    margin: 0.5rem;
+    background-color: #121212;
+}
+
+
+.icon {
+    border-radius: 1rem;
+    padding: 0.25rem 0.75rem 0.25rem 0.75rem ; 
+    height: 2.5rem; 
+    display: flex;
+    align-items: center;
+    opacity: 0.7;
+    font-weight: 700;
+}
+
+
+.icon:hover {
+    opacity: 1;
+}
+
+
+.opacity {
+    opacity: 1;
+}
+
+
+.icon a {
+    text-decoration: none;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+/* Navigation End  */
+
+/* Library Start */
+
+#library {
+    margin: 0.5rem;
+    background-color: #121212;
+    border-radius: 1rem;
+}
+
+/* Library Icon Start*/
+
+#library-option {
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 22rem;
+    height: 2.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+
+#library-icon {
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem ;
+    font-weight: 700;
+}
+
+
+#library-icon img {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+
+#library-icon a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin-left: 0.4rem;
+}
+
+
+#icon i {
+    margin-top: 0.4rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+}
+
+
+#icon , #library-icon {
+    opacity: 0.7;
+}
+
+
+#library-icon:hover  {
+    opacity: 1;
+}
+
+
+#icon:hover {
+    opacity: 1;
+}
+
+/* Library Icon End */
+
+/* Library Box Start*/
+
+#library-box {
+    width: 23rem;
+    height: 30.7rem;
+    padding: 0px 0.5rem 0.5rem 0.5rem;
+}
+
+
+#box-p1{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+
+#box-p2 {
+    font-size: 0.875rem;
+}
+
+
+.lib-box {
+    margin: 0.5rem 0 1rem 0; 
+    background-color: #232323;
+    border-radius: 0.75rem;
+    width: 20.5rem;
+    height: 6.25rem;
+    padding: 1rem 1.25rem 1rem 1.25rem;
+}
+
+
+.badge {
+    background-color: white;
+    color: black;
+    height: 2rem;
+    width: fit-content;
+    padding: 0.25rem 1rem 0.25rem 1rem;
+    border: none;
+    border-radius: 0.87rem;
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+} 
+
+/* Library Box End */
+
+/* Library End */
+
+/* Navbar End */
+
+/* Main Start */
+
+main {
+    background-color: #121212;
+    border-radius: 1rem;
+    overflow: auto;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+    flex-grow: 1;
+}
+
+/* Stick Bar Start  */
+
+#sticky-nav {
+    height: 4rem;
+    background-color: #121212;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    z-index: 1000;
+}
+
+
+#sticky-nav-direction img {
+    height: 1rem;
+    width: 1rem;
+    margin-right: 1rem;
+}
+
+
+#badge-install {
+    background-color: black;
+    color: white;
+    height: 2rem;
+    width: fit-content;
+    padding: 0.25rem 1rem 0.25rem 1rem;
+    border: none;
+    border-radius: 0.87rem;
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+
+#sticky-nav-button {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+} 
+
+
+#sticky-nav-button button {
+    margin-right: 1rem;
+}
+
+/* Stick Bar End  */
+
+/* Cards Section Start */
+
+#cards {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    margin-bottom: 4rem;
+} 
+
+
+.heading {
+    height: 3.75rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    left: 1rem;
+    margin-bottom: 1rem; 
+    font-size: 1.5rem;
+}
+
+
+/* #single {
+    width: 100%;
+} */
+
+
+.cards {
+    width: 9.8rem;
+    height: 16rem;
+    padding: 0.75rem;
+    background-color: #232323;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+.card-image {
+    height: 9.8rem ;
+    width: 9.8rem ;
+    border-radius: 0.5rem;
+} 
+
+
+.card-data {
+    width: 9.2rem;
+    height: 5.5rem;
+}
+
+
+.card-title {
+    font-weight: 600;
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+
+.card-info {
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#space {
+    width: 57.8rem;
+    height: 19.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#line {
+    width: 90%;
+    height: 50%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+    margin-left: 8rem;
+}
+
+/* Cards Section End*/
+
+/* Main End  */
+
+/* Footer Start */
+
+footer {
+    background-color: black;
+    height: 4.5rem;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+/* Song Album Start */
+
+#song-name {
+    width: 28.125rem;   
+    display: flex;
+    padding-left: 0.5rem;
+}
+
+
+#name-img {
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-right: 0.5rem; 
+}
+
+
+#song-info {
+    height: fit-content;
+    width: fit-content;
+    margin: 0rem 0.5rem 0rem 0.5rem;
+    position: relative;
+    top: 0.8rem;
+}
+
+
+#song-singer {
+    font-weight: 400;
+    font-size: 0.875rem;
+}
+
+
+#song-director {
+    font-size: 0.75rem;
+    color: #b3b3b3;
+}
+
+
+#song-director:hover {
+    color: white;
+}
+
+
+#favourite {
+    height: 1rem;
+    width: 1rem;
+    padding: 0.5rem;
+    opacity: 0.5;
+}
+
+
+#favourite:hover {
+    opacity: 1;
+}
+
+/* Song Album End */
+
+/* Song Player Start */
+
+#song-player {
+    width: 40rem;
+    height: fit-content;
+}
+
+
+#player-control{
+    height: 2rem;
+    width: 38.25rem;
+    margin: 1rem 0rem 0.5rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+
+.control-icon {
+    height: 1rem;
+    width: 1rem;
+    padding: 0rem 1rem 0rem 1rem;
+    margin-top: 0.5rem;
+    opacity: 0.7;
+}
+
+
+.control-icon:hover {
+    opacity: 1;
+}
+
+
+.big {
+    height: 2rem;
+    width: 2rem;
+    opacity: 1;
+}
+
+.big:hover {
+    width: 2.1rem;
+}
+
+
+#play-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+
+.progress {
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.progress::-webkit-slider-runnable-track {
+    background-color: #ddd;
+    border-radius: 6.25rem ;
+    height: fit-content;
+}
+
+
+.progress::-webkit-slider-thumb {
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+}
+
+/* Song Player End */
+
+/* Song controller Start */
+
+#song-control {
+    width: 28.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.control-ico {
+    height: 2rem;
+    width: 2rem;
+    padding: 0.5rem;
+    opacity: 0.5;
+}
+
+
+.control-ico:hover {
+    opacity: 1;
+}
+
+
+#song-control i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+#progress-song {
+    width: 5.65rem;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+#progress-song::-webkit-slider-runnable-track {
+    background-color: #ddd;
+    border-radius: 6.25rem ;
+    height: fit-content;
+}
+
+
+#progress-song::-webkit-slider-thumb {
+    appearance: none;
+    height: 1rem;
+    width: 1rem;
+    background-color: #1bd760;
+    border-radius: 50%;
+}
+
+/* Song controller End */
+
+/* Footer End */ 
+
+/* Spotify Clone End */
